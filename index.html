@@ -1,93 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <div class="nav">
-        <img src="assets/images/logo.png">
-        <ul>
-            <li>
-                <a href="index.html">Home Page</a>
-            </li>
-            <li>
-                <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">Link 2</a>
-            </li>
-            <li>
-                <a href="https://www.w3.org/TR/WCAG21/">Link 3</a>
-            </li>
-        </ul>
-    </div>
-    <div class="main">
-        <h1 class="flashy-text">WebFiesta: The Online Party Supply Superstore!!</h1>
-        <h1 class="flashy-text">About Us</h1>
-        <img src="assets/images/balloons.jpg" class="banner"> 
-        <a href="https://pxhere.com/en/photo/1267651">Image source</a>
-        <h3>Come here for all your party supply needs!</h3>
-        <p>Kid's birthday? Grandpa's birthday? Anniversary? Fourth Wedding? You name the celebration, we have what you need!</p>
-        <hr>
-        <h1 class="flashy-text">Contact Us</h1>
-        <h6>We my take 3-6 business days to respond</h6>
-        <h5>Click the green button to submit or the red button to clear the form</h5>
-        <form>
-            <h2>Contact Form</h2>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <nav>
+            <img alt="Four Balloons Site Logo" src="assets/images/logo.png">
+            <ul>
+                <li>
+                    <a href="index.html">Home Page</a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.w3.org/WAI/fundamentals/accessibility-intro/">
+                        Accessibility Info</a>
+                </li>
+                <li>
+                    <a href="https://www.w3.org/TR/WCAG21/">WCAG21 Info</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1 class="flashy-text">WebFiesta: The Online Party Supply
+                Superstore!!</h1>
+            <h1 class="flashy-text">About Us</h1>
+            <img alt="Four Ballons in background"
+                src="assets/images/balloons.jpg"
+                class="banner">
+            <a href="https://pxhere.com/en/photo/1267651">Image source</a>
+            <h2>Come here for all your party supply needs!</h2>
+            <p>Kid's birthday? Grandpa's birthday? Anniversary? Fourth Wedding?
+                You name the celebration, we have what you need!</p>
+            <hr>
+            <h1 class="flashy-text">Contact Us</h1>
+            <h2>We my take 3-6 business days to respond</h2>
+            <h3>Click the buttons below to submit or clear your data</h3>
+            <form>
+                <h1>Contact Form</h1>
+                <div>
+                    Your First Name:
+                    <label for="firstname"></label>
+                    <input type="text" name="firstname" id="firstname">
+                </div>
+                <div>
+                    Your Last Name:
+                    <label for="lastname"></label>
+                    <input type="text" name="lastname" id="lastname">
+                </div>
+                <div>
+                    Concern or Issue:
+                    <label for="concern"></label>
+                    <select name="concern" id="concern">
+                        <option value="1">missing product</option>
+                        <option value="2">billing issue</option>
+                        <option value="3">speak with representative</option>
+                        <option value="4">other</option>
+                    </select>
+                </div>
+                <div>
+                    Other Notes:
+                    <textarea></textarea>
+                </div>
+                <hr>
+                <input type="submit" value="Submit">
+                <input type="submit" value="Clear">
+
+            </form>
+            <hr>
+            <h1 class="flashy-text">Directions</h1>
+            <section>
+                <div>
+                    <img alt="Car Icon" src="assets/images/car.png"> 20 mins
+                </div>
+                <div>
+                    <img alt="Bicycle Icon" src="assets/images/bicycle.png"> 35
+                    mins
+                </div>
+                <div>
+                    <img alt="Ferry Icon" src="assets/images/ferry.png"> 50 mins
+                </div>
+                <div>
+                    <img alt="Bus Icon" src="assets/images/bus.png"> 55 mins
+                </div>
+            </section>
             <div>
-                Your First Name:
-                <input type="text" name="firstname" id="firstname">
+                It's easy peasy to get here to our physical warehouse, just
+                check the transportation mode you'll be using
             </div>
             <div>
-                Your Last Name:
-                <input type="text" name="lastname" id="lastname">
+                Icons made by <a
+                    href="https://www.flaticon.com/authors/fjstudio"
+                    title="fjstudio">fjstudio</a> from
+                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             </div>
+        </main>
+        <footer>
+            Thanks for stopping by ❤️
             <div>
-                Concern or Issue:
-                <select name="concern" id="concern">
-                    <option value="1">missing product</option>
-                    <option value="2">billing issue</option>
-                    <option value="3">speak with representative</option>
-                    <option value="4">other</option>
-                </select>
+                <img alt="Four Balloons Site Logo" src="assets/images/logo.png">
+                <a
+                    href="https://creazilla.com/nodes/64384-colourful-balloons-clipart">Cute
+                    logo provided by ElisaRiva via Pixabay</a>
             </div>
-            <div>
-                Other Notes:
-                <textarea></textarea>
-            </div>
-            <input type="submit" class="btn1">
-            <input type="submit" class="btn2">
-        </form>
-        <hr>
-        <h1 class="flashy-text">Directions</h1>
-        <div class="section">
-            <div>
-                <img src="assets/images/car.png"> 20 mins 
-            </div>
-            <div>
-                <img src="assets/images/bicycle.png"> 35 mins
-            </div>
-            <div>
-                <img src="assets/images/ferry.png"> 50 mins
-            </div>
-            <div>
-                <img src="assets/images/bus.png"> 55 mins
-            </div>
-        </div>
-        <div>
-            It's easy peasy to get here to our physical warehouse, just check the transportation mode you'll be using
-        </div>
-        <div>
-            Icons made by <a href="https://www.flaticon.com/authors/fjstudio" title="fjstudio">fjstudio</a> from 
-            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-        </div>
-    </div>
-    <div class="footer">
-        Thanks for stopping by ❤️ 
-        <div>
-            <img src="assets/images/logo.png">
-            <a href="https://creazilla.com/nodes/64384-colourful-balloons-clipart">Cute logo provided by ElisaRiva via Pixabay</a>
-        </div>
-    </div>
-</body>
+        </footer>
+    </body>
 </html>
